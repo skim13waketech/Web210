@@ -1,0 +1,35 @@
+header {
+    background-color: white;
+    opacity: 60%;
+}
+
+h2 {
+    color: grey;
+}
+
+img {
+    width: 500px;
+}
+
+body {
+    background-image: url("annie-spratt-unsplash.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat; 
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.Work {
+    font-style: italic;
+}
+
+#hard {
+    font-style: italic;
+    color: indigo;
+}
