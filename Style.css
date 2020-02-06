@@ -1,6 +1,13 @@
 header {
-    background-color: white;
-    opacity: 60%;
+    background-color: navy;
+    color: white;
+  
+}
+
+.wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 25px 0;
 }
 
 h2 {
@@ -15,6 +22,8 @@ body {
     background-image: url("annie-spratt-unsplash.jpg");
     background-size: 150%;
     background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -31,5 +40,5 @@ a:hover {
 
 #hard {
     font-style: italic;
-    color: indigo;
+    color: white;
 }
