@@ -1,29 +1,58 @@
 header {
-    background-color: navy;
+    background-color: SteelBlue;
     color: white;
+   overflow: hidden;
+   text-align: left;
   
 }
+
+header img {
+    float: left;
+    width: 250px;
+    padding: 15px;
+}
+
 
 .wrap {
     width: 700px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 h2 {
-    color: grey;
+    color: black;
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+}
+
+h1 {
+    color: MidnightBlue;
+    font-family: 'Sriracha', cursive;
+
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 
 img {
     width: 500px;
 }
 
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
 body {
-    background-image: url("annie-spratt-unsplash.jpg");
+    background-color: Azure;
     background-size: 150%;
     background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
+    text-align: center;
+    line-height: 1.5;
 }
 
 a {
@@ -40,5 +69,7 @@ a:hover {
 
 #hard {
     font-style: italic;
-    color: white;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 29px;
 }
