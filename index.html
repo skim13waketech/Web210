@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson 7: The &lt;picture&gt; element</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    body {font-size: 18pt;}
+    h1 {font-size: 115%;}
+  </style>
+</head>
+
+<body>
+  <div style="text-align:center">
+
+    <picture>
+      <source media ="(max-width: 750px)" srcset="Table450.jpg">
+      <source media ="(max-width: 1000px)" srcset="Table750.jpg">
+    <img src="Table1000.jpg"
+      alt="A table">
+
+    </picture>
+  </div>
+  
+  <h1>Scene</h1>
+  
+  <p>
+   Three pictures
+  </p>
+  <div style="text-align:center">
+
+    <picture>
+      <source media ="(max-width: 750px)" srcset="Sona450.jpg">
+     <source media ="(max-width: 1000px)" srcset="Sona750.jpg">
+    
+    <img src="Sona1000.jpg"        
+      alt="My picture">
+
+    </picture>
+  </div>
+<div style="text-align:center">
+
+  <picture>
+    <source media ="(max-width: 750px)" srcset="picture450.jpg">
+    <source media ="(max-width: 1000px)" srcset="picture750.jpg">
+      <img src="picture1000.jpg"
+
+  alt="Bicycle">
+  </picture>
+  
+</div>
+</body>
+</html>
+
