@@ -1,0 +1,86 @@
+
+html, body {
+	margin: 0;
+}
+
+html {
+	background:SteelBlue;
+}
+
+body {
+	font: 'Amatic SC', cursive;
+	background: Azure;
+	width: 50%;
+	margin: 0 auto;
+	padding: 2%;
+	line-height: 1.6;
+}
+
+
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  
+ 
+
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+
+}
+h3 {
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+.Information {
+    line-height: 1;
+    background: lightsteelblue;
+    border-radius: 0.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    text-align: left;
+  
+   
+ 
+}
+
+.form {
+    line-height: 1.5;
+    background: lightsteelblue;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    text-align: center;
+  
+}
+
+#Message {
+    
+    box-sizing: border-box;
+    width: 200px;
+    height: 10em;
+    
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
