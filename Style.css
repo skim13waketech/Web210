@@ -4,6 +4,7 @@ header {
    overflow: hidden;
    text-align: left;
   
+  
 }
 
 header img {
@@ -14,9 +15,19 @@ header img {
 
 
 .wrap {
-    width: 700px;
-    margin: 0 auto;
-    padding: 20px 0;
+    max-width: 800px;
+    width: 85%;
+    margin: auto;
+  
+    
+
+}
+.Aboutt {
+    text-align: center;
+    background-color: SteelBlue;
+    padding: auto;
+    border: 0.5px solid white;
+  
 }
 
 h2 {
@@ -51,12 +62,15 @@ body {
     background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
-    text-align: center;
+   /* text-align: center; */
     line-height: 1.5;
+   
 }
 
+
 a {
-    color: yellow;
+    color: white;
+    text-decoration: inherit;
 }
 
 a:hover {
@@ -73,3 +87,90 @@ a:hover {
     font-family: 'Amatic SC', cursive;
     font-size: 29px;
 }
+
+nav {
+    background-color: black;
+ 
+}
+
+nav ul {                                   
+    text-align: center;              
+    list-style: none;   
+    padding-left: 0%;
+    margin: 0%;
+
+               
+         }
+
+ 
+nav ul li {                                 
+    font: bold 25px 'Amatic SC', cursive; 
+    display: inline-block;            
+     position: relative;                
+     padding: 15px 20px;           
+    background: black;              
+    cursor: pointer;  
+    width: 15%;    
+              
+               }
+
+ nav ul li:hover {                        
+        
+    background: navy;             
+    color: #fff;                        
+          }
+
+nav ul li ul {                            
+        
+    padding: 0;                       
+    position: absolute;             
+    top: 48px;                        
+    left: -10000px;                 
+    width: 1255px;                  
+          }
+                            
+nav ul li ul li {                        
+                                    
+    background: none;           
+    display: block;                 
+    color: #fff;                     
+            }
+            
+                                    
+nav ul li ul li:hover { 
+    
+   color: black;
+
+ } 
+                            
+nav ul li:hover ul {                 
+                            
+    display: block;                
+    left :0px;                        
+        }
+
+nav a {
+    color: inherit;
+    text-decoration: inherit; 
+          }
+
+.About {
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+    border: 0.5px solid white;
+   
+}
+ .footer {
+     list-style-type: none;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .footer a {
+     padding: 15px;
+     display: inline-block;
+ }
